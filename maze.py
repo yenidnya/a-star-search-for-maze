@@ -40,7 +40,7 @@ Builder.load_string("""
             rectangle: self.x, self.y, self.width, self.height
 """)
 
-# Node's in Maze
+# Nodes in Maze
 class Node(ButtonBehavior, Label):
     def __init__(self, X, Y):
         super(Node, self).__init__()
